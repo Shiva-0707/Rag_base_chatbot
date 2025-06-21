@@ -18,7 +18,7 @@ def extract_text_from_pdf(filepath):
     doc = fitz.open(filepath)
     return "\n".join([page.get_text() for page in doc])
 
-# Step 2: Break text into smaller chunks (context windows)
+# Step 2: Break text into smaller chunks 
 def chunk_text(text, max_length=500):
     sentences = text.split(". ")
     chunks, chunk = [], ""
