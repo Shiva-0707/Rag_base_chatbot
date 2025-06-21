@@ -3,7 +3,7 @@
 import streamlit as st
 import requests
 
-st.set_page_config(page_title="🧠 RAG Chatbot", layout="centered")
+st.set_page_config(page_title="🧠 RAG Chatbot - Shivansh", layout="centered")
 
 st.title("📄 DocsBot")
 
