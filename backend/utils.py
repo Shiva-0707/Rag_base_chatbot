@@ -9,7 +9,6 @@ from dotenv import load_dotenv
 load_dotenv()
 # 🔐 Set your OpenAI API Key
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
-#client = OpenAI(api_key="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")  # Replace with your actual key
 
 # Load sentence transformer model
 model = SentenceTransformer('all-MiniLM-L6-v2')
